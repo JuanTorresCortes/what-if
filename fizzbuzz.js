@@ -12,4 +12,4 @@ if(number % 3 === 0 && number % 5 === 0){
     console.log("buzz")
 }else if(number % 3 === 0){
     console.log("fizz")
-}
+}else{console.log(`${number} is not divisible by 3 or 5`)}
